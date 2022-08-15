@@ -1,0 +1,212 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="container">
+  <div class="mx-2 my-4 d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <h4 class="mb-0 me-5">Assignment</h4>
+      <p class="mb-0 me-2">All Courses</p>
+      <a href="#">
+        <span class="text-success material-symbols-rounded">
+          keyboard_arrow_down
+        </span>
+      </a>
+    </div>
+    <div>
+      <a href="#" class="text-dark">
+        <span class="material-symbols-rounded">
+          search
+        </span>
+      </a>
+      <a href="#" class="text-dark">
+        <span class="material-symbols-rounded">
+          notifications_active
+        </span>
+      </a>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="d-flex justify-content-between mb-1">
+      <div class="d-flex">
+        <p class="mb-0">All (4)</p>
+        <a href="#">
+          <span class="ms-2 text-success material-symbols-rounded">
+            keyboard_arrow_down
+          </span>
+        </a>
+      </div>
+      <p class="fz12">2 comments</p>
+    </div>
+    <div class="col-4">
+      <ul class="list-group">
+        <li class="list-group-item active" aria-current="true">
+          <a href="#">
+            <div class="d-flex justify-content-between mb-1">
+              <p class="mb-0 text-dark fz12">Chapter Assignment 2</p>
+              <p class="mb-0 text-dark fz12">4 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h6 class="mb-0 text-dark">Please check this file…</h6>
+              <p class="mb-0 text-secondary fz12">Emily Wang</p>
+            </div>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">
+            <div class="d-flex justify-content-between mb-1">
+              <p class="mb-0 text-dark fz12">Chapter Assignment 1</p>
+              <p class="mb-0 text-dark fz12">12 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h6 class="mb-0 text-dark">My Homework</h6>
+              <p class="mb-0 text-secondary fz12">David Xu</p>
+            </div>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">
+            <div class="d-flex justify-content-between mb-1">
+              <p class="mb-0 text-dark fz12">Final Assignment</p>
+              <p class="mb-0 text-dark fz12">18 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h6 class="mb-0 text-dark">Have a problem with this…</h6>
+              <p class="mb-0 text-secondary fz12">Tony Wei</p>
+            </div>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">
+            <div class="d-flex justify-content-between mb-1">
+              <p class="mb-0 text-dark fz12">Final Assignment</p>
+              <p class="mb-0 text-dark fz12">19 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h6 class="mb-0 text-dark">Did I do it right?</h6>
+              <p class="mb-0 text-secondary fz12">Christina Lin</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-8">
+      <div class="px-3 py-2 d-flex justify-content-between align-items-center bg-light border border-gray-400">
+        <div>
+          <p class="mb-1 fz12">Chapter Assignment 2 / HTML&CSS</p>
+          <h6>Please check this file for me, thanks!</h6>
+        </div>
+        <span class="material-symbols-rounded">
+          more_vert
+        </span>
+      </div>
+      <div class="container border">
+        <div class="d-flex align-items-center">
+          <img class="userImg ms-4 rounded-circle" src="./assets/images/week5/emilywang.jpeg" alt="emily">
+          <div class="me-5">
+            <p class="ms-3 mb-1 text-dark">Emily Wang</p>
+            <p class="ms-3 mb-0 text-secondary fz12">10:38 AM (4 hours ago)</p>
+          </div>
+        </div>
+        <div class="row">
+          <article class="col-11 offset-1">
+            <p>
+              Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin. <br> 
+              What is the gap or extra space below image?
+            </p>
+          </article>
+          <div class="col-11 offset-1 border-bottom" >
+            <a href="#" class="btn btn-light border border-gray-400 mb-3">
+              <span class="align-middle material-symbols-rounded">
+                attach_file
+              </span>
+              HW-2-David.zip
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <img class="userImg ms-4 rounded-circle" src="./assets/images/week5/andychen.jpeg" alt="andy">
+            <div class="me-5">
+              <p class="ms-3 mb-1 text-dark">Andy Chen (You)</p>
+              <p class="ms-3 mb-0 text-secondary fz12">13:24 AM (1 hours ago)</p>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="text-dark">
+              <span class="material-symbols-rounded">
+                star
+              </span>
+            </a>
+            <a href="./assignmentEdit.html" class="text-dark ms-4">
+              <span class="material-symbols-rounded">
+                edit
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <article class="col-11 offset-1">
+            <p>
+              Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. <br> 
+              You can: <br> 　
+              • adjust the vertical-align of the image to position it elsewhere (e.g. the middle ) or <br>　
+              • change the display so it isn’t inline.
+            </p>
+          </article>
+        </div>
+      </div>
+      <div class="my-3 d-flex justify-content-between align-items-center">
+        <div>
+          <a href="#" class="me-4 text-dark">
+            <span class="material-symbols-rounded">
+              arrow_back_ios
+            </span>
+          </a>
+          <a href="#" class="text-dark">
+            <span class="material-symbols-rounded">
+              arrow_forward_ios
+            </span>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="btn btn-outline-success me-3">
+            Mark as read
+          </a>
+          <a href="#" class="btn btn-success">
+            Reply
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
